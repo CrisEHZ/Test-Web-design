@@ -1,0 +1,200 @@
+/*
+this is for all the pages
+*/
+
+h2{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1{
+    font-family: 'Lobster', sans-serif;
+}
+/*
+two google fonts
+*/
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    background-image: url(../Images/background.jpg);
+}
+
+header{
+   text-align: center;
+}
+
+.logo-page{
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    width: 80px;
+}
+
+.logo-page:hover{
+    width: 60px;
+    padding: 5px;
+    border: 3px solid salmon;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: blue;
+}
+
+.body-homepage, .body-page2, .body-page3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    border: 2px dotted blue;
+}
+
+footer{
+    text-align: center;
+}
+
+
+/*
+this is for the navbar
+*/
+.link-menu{
+   text-align: center;
+}
+
+.link-menu li{
+    display: inline-block;
+    margin-right: 20px; 
+    list-style: none;
+}
+.link-menu li a{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.link-menu li a:hover{
+    padding: 5px;
+    border: 2px solid salmon;
+    background-color: blanchedalmond;
+    border-radius: 10%;
+    color: salmon;
+}
+
+
+/*
+Homepage, page 1
+*/
+.body-homepage p, li{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.pets{
+    width: 400px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.img-pets{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 80%;
+}
+
+.homepage-table {
+    margin: 0;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th{
+    margin: 0;
+    padding: 5px 10px;
+    border: 1px solid ;
+}
+
+.ol-homepage{
+    width: 95%;
+}
+
+
+/* 
+page 2
+*/
+.body-page2 img{
+    margin: 10px;
+    width: 220px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.ul-page2{
+    text-align: center;
+}
+
+.ul-page2 li{
+    display: inline-block;
+    list-style: none;
+}
+
+.ul-page2 li img:hover{
+    width: 230px;
+    height: 410px;
+    border: 3px solid salmon;
+    border-radius: 20px;
+}
+
+.img-cat{
+    object-fit: cover;
+    object-position: 28% 50%;
+}
+
+.img-dog{
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.img-guinea{
+    object-fit: cover;
+    object-position: 48% 50%;
+}
+
+.img-parrot{
+    object-fit: cover;
+    object-position: 20% 50%;
+}
+
+
+/*
+page 3
+*/
+.body-page3{
+    text-align: center;
+}
+
+#Submit{
+    margin-top: 10px;
+    padding: 10px;
+    width: 50px;
+}
+
+#Submit:hover{
+    width: 40px;
+    padding: 10px;
+    border: 3px solid salmon;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+}
+
+.form{
+    font-size: smaller;
+    font-weight: bold;
+}
